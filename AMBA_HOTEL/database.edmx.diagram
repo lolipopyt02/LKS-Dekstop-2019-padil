@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="133773b2664a4fa0b19cdf009c2458fe" Name="Diagram1" ZoomLevel="40">
+        <EntityTypeShape EntityType="AMBA_HOTELModel.Cleaning_Room" Width="1.5" PointX="5.25" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AMBA_HOTELModel.CleaningRoomDetail" Width="1.5" PointX="7.5" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AMBA_HOTELModel.CleaningRoomItem" Width="1.5" PointX="9.75" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AMBA_HOTELModel.Customer" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AMBA_HOTELModel.Employee" Width="1.5" PointX="3" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AMBA_HOTELModel.Item" Width="1.5" PointX="7.5" PointY="9.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AMBA_HOTELModel.ItemStatu" Width="1.5" PointX="7.5" PointY="12.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AMBA_HOTELModel.Job" Width="1.5" PointX="0.75" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AMBA_HOTELModel.Reservation" Width="1.5" PointX="5.25" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AMBA_HOTELModel.ReservationCheckOut" Width="1.5" PointX="9.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="AMBA_HOTELModel.ReservationRequestItem" Width="1.5" PointX="12.75" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AMBA_HOTELModel.ReservationRoom" Width="1.5" PointX="7.5" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AMBA_HOTELModel.Room" Width="1.5" PointX="5.25" PointY="9.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AMBA_HOTELModel.RoomType" Width="1.5" PointX="3" PointY="9.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AMBA_HOTELModel.sysdiagram" Width="1.5" PointX="9.75" PointY="9.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AMBA_HOTELModel.Table_1" Width="1.5" PointX="11.75" PointY="5.125" IsExpanded="true" />
+        <AssociationConnector Association="AMBA_HOTELModel.FK_Cleaning_Room_Employee" ManuallyRouted="false" />
+        <AssociationConnector Association="AMBA_HOTELModel.FK_CleaningRoomDetail_Cleaning_Room" ManuallyRouted="false" />
+        <AssociationConnector Association="AMBA_HOTELModel.FK_CleaningRoomDetail_Room" ManuallyRouted="false" />
+        <AssociationConnector Association="AMBA_HOTELModel.FK_CleaningRoomItem_CleaningRoomDetail" ManuallyRouted="false" />
+        <AssociationConnector Association="AMBA_HOTELModel.FK_CleaningRoomItem_Item" ManuallyRouted="false" />
+        <AssociationConnector Association="AMBA_HOTELModel.FK_Reservation_Customer" ManuallyRouted="false" />
+        <AssociationConnector Association="AMBA_HOTELModel.FK_Employee_Job" ManuallyRouted="false" />
+        <AssociationConnector Association="AMBA_HOTELModel.FK_Reservation_Employee" ManuallyRouted="false" />
+        <AssociationConnector Association="AMBA_HOTELModel.FK_ReservationCheckOut_Item" ManuallyRouted="false" />
+        <AssociationConnector Association="AMBA_HOTELModel.FK_ReservationRequestItem_Item" ManuallyRouted="false" />
+        <AssociationConnector Association="AMBA_HOTELModel.FK_ReservationCheckOut_ItemStatus" ManuallyRouted="false" />
+        <AssociationConnector Association="AMBA_HOTELModel.FK_ReservationRoom_Reservation" ManuallyRouted="false" />
+        <AssociationConnector Association="AMBA_HOTELModel.FK_ReservationCheckOut_ReservationRoom" ManuallyRouted="false" />
+        <AssociationConnector Association="AMBA_HOTELModel.FK_ReservationRequestItem_ReservationRoom" ManuallyRouted="false" />
+        <AssociationConnector Association="AMBA_HOTELModel.FK_ReservationRoom_Room" ManuallyRouted="false" />
+        <AssociationConnector Association="AMBA_HOTELModel.FK_Room_RoomType" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
